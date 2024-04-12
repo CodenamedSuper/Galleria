@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "galleria",
+	"version": "${version}",
+	"name": "Galleria",
+	"description": "New paintings!",
+	"authors": [
+		"CodenamedSuper"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/galleria/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"codenamed.galleria.Galleria"
+		],
+		"client": [
+			"codenamed.galleria.GalleriaClient"
+		],
+		"fabric-datagen": [
+			"codenamed.galleria.GalleriaDataGenerator"
+		]
+	},
+	"mixins": [
+		"galleria.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.9",
+		"minecraft": "~1.20.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
