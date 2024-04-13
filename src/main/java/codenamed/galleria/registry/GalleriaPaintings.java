@@ -19,6 +19,8 @@ public class GalleriaPaintings {
     public static final PaintingVariant WASTELAND = registerPainting("wasteland", new PaintingVariant(16, 16));
 
     public static final PaintingVariant LANDSCAPE = registerPainting("landscape", new PaintingVariant(32, 16));
+    public static final PaintingVariant SUNSET = registerPainting("sunset", new PaintingVariant(16, 16));
+
 
 
 
