@@ -16,6 +16,12 @@ public class GalleriaPaintings {
 
     public static final PaintingVariant TENTACLES = registerPainting("tentacles", new PaintingVariant(16, 32));
 
+    public static final PaintingVariant WASTELAND = registerPainting("wasteland", new PaintingVariant(16, 16));
+
+    public static final PaintingVariant LANDSCAPE = registerPainting("landscape", new PaintingVariant(32, 16));
+
+
+
 
 
 
