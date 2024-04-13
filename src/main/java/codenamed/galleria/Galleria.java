@@ -1,5 +1,6 @@
 package codenamed.galleria;
 
+import codenamed.galleria.registry.GalleriaPaintings;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -13,7 +14,9 @@ public class Galleria implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
+		GalleriaPaintings.registerPaintings();
 
 		LOGGER.info("Hello Fabric world!");
+
 	}
 }
