@@ -16,10 +16,16 @@ public class GalleriaPaintings {
 
     public static final PaintingVariant TENTACLES = registerPainting("tentacles", new PaintingVariant(16, 32));
 
-    public static final PaintingVariant WASTELAND = registerPainting("wasteland", new PaintingVariant(16, 16));
+    public static final PaintingVariant BARREN = registerPainting("barren", new PaintingVariant(16, 16));
 
     public static final PaintingVariant LANDSCAPE = registerPainting("landscape", new PaintingVariant(32, 16));
-    public static final PaintingVariant SUNSET = registerPainting("sunset", new PaintingVariant(16, 16));
+    public static final PaintingVariant GOLDEN_SUN = registerPainting("golden_sun", new PaintingVariant(16, 16));
+
+    public static final PaintingVariant CAT = registerPainting("cat", new PaintingVariant(16, 32));
+
+    public static final PaintingVariant SOUL = registerPainting("soul", new PaintingVariant(16, 32));
+
+
 
 
 
